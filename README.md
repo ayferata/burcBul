@@ -85,12 +85,7 @@ public class Main {
             }
         }else {
             isError = true;
-        }
 
-        if(isError){
-            System.out.println("Hatalı giriş yaptınız tekrar deneyiniz!");
-        }else{
-            System.out.println("Burcunuz: "+burc);
         }
     }
 }
