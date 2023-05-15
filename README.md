@@ -1,11 +1,12 @@
 # burcBul
 import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         int month,day;
         boolean isError = false;
-        String burc="";
+        String burc=" ";
         System.out.print("Doğduğunuz ayı giriniz: ");
         month=input.nextInt();
         System.out.print("Doğduğunuz günü giriniz: ");
